@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/socialRed/static/css/main.4d7d3e23.chunk.css",
+    "main.js": "/socialRed/static/js/main.a96193a1.chunk.js",
+    "main.js.map": "/socialRed/static/js/main.a96193a1.chunk.js.map",
+    "runtime-main.js": "/socialRed/static/js/runtime-main.02e1403f.js",
+    "runtime-main.js.map": "/socialRed/static/js/runtime-main.02e1403f.js.map",
+    "static/css/2.96b26686.chunk.css": "/socialRed/static/css/2.96b26686.chunk.css",
+    "static/js/2.8468035b.chunk.js": "/socialRed/static/js/2.8468035b.chunk.js",
+    "static/js/2.8468035b.chunk.js.map": "/socialRed/static/js/2.8468035b.chunk.js.map",
+    "index.html": "/socialRed/index.html",
+    "static/css/2.96b26686.chunk.css.map": "/socialRed/static/css/2.96b26686.chunk.css.map",
+    "static/css/main.4d7d3e23.chunk.css.map": "/socialRed/static/css/main.4d7d3e23.chunk.css.map",
+    "static/js/2.8468035b.chunk.js.LICENSE.txt": "/socialRed/static/js/2.8468035b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02e1403f.js",
+    "static/css/2.96b26686.chunk.css",
+    "static/js/2.8468035b.chunk.js",
+    "static/css/main.4d7d3e23.chunk.css",
+    "static/js/main.a96193a1.chunk.js"
+  ]
+}
