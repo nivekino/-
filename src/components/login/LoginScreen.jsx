@@ -13,7 +13,7 @@ const LoginScreen = ({ history }) => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    let lastPath = '/';
+    let lastPath = localStorage.getItem('lastPath') || '/user/feed';
     const obj = {
       username: user,
       password: password,
@@ -33,6 +33,13 @@ const LoginScreen = ({ history }) => {
         } else {
           const { token, role } = data;
 
+          if (role == 'user') {
+            lastPath = '/user/feed';
+            history.replace(lastPath);
+          } else {
+            lastPath = '/admin/lista';
+            history.replace(lastPath);
+          }
           dispatch({
             type: types.login,
             payload: {
@@ -41,14 +48,6 @@ const LoginScreen = ({ history }) => {
               token: token,
             },
           });
-
-          if (role == 'user') {
-            lastPath = '/user/feed';
-          history.replace(lastPath);
-          } else {
-            lastPath = '/admin/lista';
-          history.replace(lastPath);
-          }
         }
       });
   };

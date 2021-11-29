@@ -1,11 +1,10 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../auth/AuthContext';
 import useForm from '../../hooks/useForm';
-import { Redirect } from 'react-router-dom';
 
 const UpdateForm = ({ descripcion, titulo, imagen, postId }) => {
   const { user } = useContext(AuthContext);
-  const [{ postTitle, description, imageUrl }, handleInputChange, reset] =
+  const [{ postTitle, description, imageUrl }, handleInputChange] =
     useForm({
       postTitle: descripcion,
       description: titulo,
